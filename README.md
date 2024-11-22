@@ -1,4 +1,4 @@
-Expo router causes the React Native Debugger to not show source files when active
+Expo router causes the React Native Debugger to not show source files
 
 With this project as-is, you'll observe that this project's entrypoint is not handled by expo-router, and the react-native debugger works perfectly fine- allowing you to access and set breakpoints on source files.
 
