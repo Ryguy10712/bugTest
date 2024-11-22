@@ -1,10 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {StyleSheet, Text, View} from "react-native";
+import {StatusBar} from "expo-status-bar";
 
-export default function App() {
+const RootLayout = () => {
   return (
     <View style={styles.container}>
-      <Text>This is App.tsx</Text>
+      <Text>This is _layout.tsx</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,3 +18,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default RootLayout
