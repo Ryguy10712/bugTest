@@ -4,7 +4,7 @@ import {StatusBar} from "expo-status-bar";
 const RootLayout = () => {
   return (
     <View style={styles.container}>
-      <Text>This is _layout.tsx</Text>
+      <Text>This is _layout.tsx, which is the entrypoint when handled by expo router</Text>
       <StatusBar style="auto" />
     </View>
   );
