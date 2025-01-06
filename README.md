@@ -8,3 +8,6 @@ There are exceptions to this issue, I will note, caused by altering a file in yo
 
 There was a case once where all my source files showed up for some reason, but that only happened once and I could not figure out why.
 
+UPDATE
+This is due to a conflict in the DevTools/React Native Debugger config, where it ignores the node_modules folder by default. The expo docs have been updated to acknowledge this issue.
+
